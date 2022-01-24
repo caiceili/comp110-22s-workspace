@@ -20,7 +20,6 @@ if len(entered_character) < 1:
 
 instances_found: int = 0
 
-
 print("Searching for " + entered_character + " in " + entered_word)
 
 if entered_character == entered_word[0]:
@@ -45,4 +44,3 @@ if instances_found == 1:
     print(str(instances_found) + " instance of " + entered_character + " found in " + entered_word)
 if instances_found >= 2:
     print(str(instances_found) + " instances of " + entered_character + " found in " + entered_word)
-
